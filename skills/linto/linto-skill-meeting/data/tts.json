@@ -1,0 +1,34 @@
+{
+  "en-US": {
+    "say": {
+      "start":  {
+        "phonetic": "Meeting has been started",
+        "text": "Meeting has been started"
+      },
+      "stop":  {
+        "phonetic": "Meeting has been stoped",
+        "text": "Meeting has been stoped"
+      },
+      "status_unk":  {
+        "phonetic": "Sorry i don't know what to say",
+        "text": "Sorry i don't know what to say"
+      }
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "start":  {
+        "phonetic": "Une réunion a commencé",
+        "text": "Une réunion a commencé"
+      },
+      "stop":  {
+        "phonetic": "Fin de la réunion",
+        "text": "Fin de la réunion"
+      },
+      "status_unk":  {
+        "phonetic": "Désolé je ne sais pas quoi répondre",
+        "text": "Désolé je ne sais pas quoi répondre"
+      }
+    }
+  }
+}

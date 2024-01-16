@@ -1,0 +1,16 @@
+{
+  "linto-skill-synapse" : {
+    "label" :{
+      "name" : "Name",
+      "host" : "Host",
+      "botId" : "Bot Id",
+      "botKey" : "Bot Key"
+    },
+    "placeholder" : {
+      "name" : "Node name",
+      "host": "http://",
+      "botId" : "My bot",
+      "botKey" : "My key"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<script type="text/javascript">
+    RED.nodes.registerType("linto-model-dataset", {
+        category: 'services',
+        color: '#b5aacb',
+        defaults: {
+            name: {
+                value: ""
+            },
+        },
+        inputs: 0,
+        outputs: 0,
+        icon: "font-awesome/fa-external-link",
+        paletteLabel: "Dataset",
+        label: function () {
+            return this.name || "linto-model-dataset"
+        }
+    })
+</script>
+
+<script type="text/x-red" data-template-name="linto-model-dataset">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="linto-model-dataset.label.name" /> </label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]linto-model-dataset.placeholder.name" />
+    </div>
+</script>

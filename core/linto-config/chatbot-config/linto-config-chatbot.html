@@ -1,0 +1,30 @@
+<script type="text/javascript">
+    RED.nodes.registerType('linto-config-chatbot', {
+        category: 'config',
+        defaults: {
+            host: {
+                value: '',
+                required: true
+            },
+            rest: {
+                value: '',
+                required: true
+            }
+        },
+        label: function () {
+            return this.host + this.rest
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="linto-config-chatbot">
+    <div class="form-row">
+        <label for="node-config-input-host"><i class="fa fa-globe"></i> <span data-i18n="linto-config-chatbot.label.host"/></label>
+        <input  type="text" id="node-config-input-host" data-i18n="[placeholder]linto-config-chatbot.placeholder.host" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-config-input-rest"><i class="fa fa-link"></i> <span data-i18n="linto-config-chatbot.label.rest"/></label>
+        <input  type="text" id="node-config-input-rest" data-i18n="[placeholder]linto-config-chatbot.placeholder.rest" />
+    </div>
+</script>

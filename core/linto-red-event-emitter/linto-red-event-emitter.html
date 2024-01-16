@@ -1,0 +1,25 @@
+<script type="text/javascript">
+    RED.nodes.registerType("linto-red-event-emitter", {
+        category: 'skills',
+        color: '#f8eb7b',
+        defaults: {
+            name: {
+                value: ""
+            }
+        },
+        inputs: 0,
+        outputs: 0,
+        icon: "font-awesome/fa-sitemap",
+        paletteLabel: "Event to Skill",
+        label: function () {
+            return this.name || "linto-red-event-emitter"
+        }
+    })
+</script>
+
+<script type="text/x-red" data-template-name="linto-red-event-emitter">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="linto-red-event-emitter.label.name" /></label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]linto-red-event-emitter.placeholder.name" />
+    </div>
+  </script>

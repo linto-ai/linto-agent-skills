@@ -1,0 +1,32 @@
+##intent|pollution|fr
+- quel est le niveau de pollution à [paris](location)
+- pollution à [toulouse](location)
+- donne-moi la pollution à [barcelone](location)
+- quelle est la pollution à [phoenix](location)
+- la pollution est elle acceptable à [saint brice](location)
+- la pollution est elle mauvaise à [saint brice](location)
+- donne-moi la pollution de [paris](location)
+- donne-moi le seuil de pollution à [grenoble](location)
+- donne-moi le niveau de pollution à [paris](location)
+- comment est la pollution à [hikone](location)
+- la pollution à [hakone](location) est-elle élevée
+- [bordeaux](location) est-elle polluée
+- [brest](location) est-elle polluée
+- est-ce que l'air est fortement pollué à [marseille](location)
+- est-ce que l'air est pollué à [lyon](location)
+- la pollution est elle supportable à [saint brice](location)
+ 
+##intent|pollution|en
+- pollution in [toulouse](location)
+- pollution report for [toulouse](location)
+- what is the pollution in [manchester](location)
+- what's the pollution level in [paris](location) today
+- give me the pollution report for [roma](location)
+- could you give me the pollution for [montauban](location)
+- can you give me the pollution level for [strasbourg](location)
+- how's the pollution in [monaco](location)
+- how is the pollution in [grenoble](location)
+- is the air very polluted in [toulouse](location)
+- is the pollution bad in [grenoble](location) today
+- is the pollution alright in [monaco](location)
+- is [strasbourg](location) very polluted

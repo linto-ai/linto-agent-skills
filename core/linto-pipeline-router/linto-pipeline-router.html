@@ -1,0 +1,25 @@
+<script type="text/javascript">
+    RED.nodes.registerType("linto-pipeline-router", {
+        category: 'settings',
+        color: '#84c387',
+        defaults: {
+            name: {
+                value: ""
+            }
+        },
+        inputs: 1,
+        outputs: 0,
+        icon: "font-awesome/fa-angle-double-right",
+        paletteLabel: "Router",
+        label: function () {
+            return this.name || "linto-pipeline-router"
+        }
+    })
+</script>
+
+<script type="text/x-red" data-template-name="linto-pipeline-router">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="linto-pipeline-router.label.name" /> </label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]linto-pipeline-router.placeholder.name" />
+    </div>
+</script>

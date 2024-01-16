@@ -1,0 +1,41 @@
+{
+  "name": "@linto-ai/node-red-linto-skills-demo-plenary",
+  "version": "0.0.1",
+  "description": "Skill for linto plenary",
+  "scripts": {
+    "test": "mocha test",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "pretest-fix": "eslint --ignore-path .gitignore . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linto-ai/-linto-skills-demo-plenary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linto-ai/-linto-skills-demo-plenary/issues"
+  },
+  "author": "yhoupert@linagora.com",
+  "license": "AGPL-3.0-or-later",
+  "node-red": {
+    "nodes": {
+      "linto-skill-greeting-plenary": "linto-greeting-demo/linto-skill-greeting-demo.js",
+      "linto-skill-recording-plenary": "linto-recording-demo/linto-skill-recording-demo.js",
+      "linto-skill-room-control-plenary": "linto-room-control-demo/linto-skill-room-control-demo.js"
+    }
+  },
+  "dependencies": {
+    "@linto-ai/linto-components": "latest",
+    "debug": "^4.0.1",
+    "lodash": "^4.17.15"
+  },
+  "homepage": "https://linto.ai/",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "linto",
+    "node-red",
+    "skills",
+    "plenary"
+  ]
+}

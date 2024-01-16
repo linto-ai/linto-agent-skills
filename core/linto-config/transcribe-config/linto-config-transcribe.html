@@ -1,0 +1,68 @@
+<script type="text/javascript">
+    RED.nodes.registerType('linto-config-transcribe', {
+        category: 'config',
+        defaults: {
+            host: {
+                value: ''
+            },
+            api: {
+                value: "linstt"
+            },
+            commandOffline: {
+                value: ""
+            },
+            largeVocabStreaming: {
+                value: ""
+            },
+            largeVocabStreamingInternal: {
+                value: "true"
+            },
+            largeVocabOffline: {
+                value: ""
+            }
+        },
+        label: function () {
+            return this.api + ' transcribe'
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="linto-config-transcribe">
+    <div class="form-row"> 
+        <label for="node-config-input-api"><i class="fa fa-tag"></i> <span data-i18n="linto-config-transcribe.label.api" /> </label>
+        <select  id="node-config-input-api" type="select" style="width:70%">
+            <option value="linstt" data-i18n="linto-config-transcribe.shared.list_api.linstt" />
+            <option value="bing" data-i18n="linto-config-transcribe.shared.list_api.bing" />
+        </select>
+    </div>
+
+    <div class="form-row"  style="visibility: hidden; height: 0px;">
+        <label for="node-config-input-host"><i class="fa fa-globe"></i> <span data-i18n="linto-config-transcribe.label.host"/></label>
+        <input  type="text" id="node-config-input-host" data-i18n="[placeholder]linto-config-transcribe.placeholder.host" />
+    </div>
+
+    <div class="form-row "> <p style="font-weight: bold">Services : </p></div>
+
+    <div class="form-row">
+        <label for="node-config-input-commandOffline"><i class="fa fa-commenting-o"></i> <span data-i18n="linto-config-transcribe.label.commandOffline"/></label>
+        <input  type="text" id="node-config-input-commandOffline" data-i18n="[placeholder]linto-config-transcribe.placeholder.commandOffline" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-config-input-largeVocabStreaming"><i class="fa fa-microphone"></i> <span data-i18n="linto-config-transcribe.label.largeVocabStreaming"/></label>
+        <input type="text" id="node-config-input-largeVocabStreaming" data-i18n="[placeholder]linto-config-transcribe.placeholder.largeVocabStreaming" />
+    </div>
+
+    <div class="form-row"> 
+        <label for="node-config-input-largeVocabStreamingInternal"><i class="fa fa-tag"></i> <span data-i18n="linto-config-transcribe.label.largeVocabStreamingInternal" /> </label>
+        <select id="node-config-input-largeVocabStreamingInternal" type="select" style="width:70%">
+            <option value="true" data-i18n="linto-config-transcribe.shared.bool.true" />
+            <option value="false" data-i18n="linto-config-transcribe.shared.bool.false" />
+        </select>
+    </div>
+
+    <div class="form-row">
+        <label for="node-config-input-largeVocabOffline"><i class="fa fa-comments-o"></i> <span data-i18n="linto-config-transcribe.label.largeVocabOffline"/></label>
+        <input  type="text" id="node-config-input-largeVocabOffline" data-i18n="[placeholder]linto-config-transcribe.placeholder.largeVocabOffline" />
+    </div>
+</script>

@@ -1,0 +1,42 @@
+{
+  "en-US": {
+    "say": {
+      "start": {
+        "phonetic": "The definition of ",
+        "text": "The definition of "
+      },
+      "middle": {
+        "phonetic": " is ",
+        "text": " is "
+      },
+      "error_unknown_word": {
+        "phonetic": "Unknown word ",
+        "text": "Unknown word "
+      },
+      "error_entities_number": {
+        "phonetic": "I require an entitie object to give a definition",
+        "text": "I require an entitie object to give a definition"
+      }
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "start": {
+        "phonetic": "La définition de ",
+        "text": "La définition de "
+      },
+      "middle": {
+        "phonetic": " ai ",
+        "text": " est "
+      },
+      "error_unknown_word": {
+        "phonetic": "Impossible de trouver une définition pour le mot ",
+        "text": "Impossible de trouver une définition pour le mot "
+      },
+      "error_entities_number": {
+        "phonetic": "J'ai besoin d'une entité objet pour fournir une définition",
+        "text": "J'ai besoin d'une entité objet pour fournir une définition"
+      }
+    }
+  }
+}

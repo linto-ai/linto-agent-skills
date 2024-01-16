@@ -1,0 +1,65 @@
+{
+  "en-US": {
+    "say": {
+      "title": "Title",
+      "location": "Location",
+      "date": "Date",
+      "attendee": "Do you want to invite an attendee or create the event",
+      "invite": " has been invited . ",
+      "create": "This event has been created",
+      "userNotFound": "User not found ",
+      "nextEvent": "You'r next event is ",
+      "nextEventStart": " it's start at ",
+      "noNextEvent": "You don't have any event",
+      "eventDelete": "Next event has been deleted",
+      "noEventToDelete": "No event to delete",
+      "noDateDetected": "Unable to find a date, try again",
+      "hours": "hours",
+      "at": " at ",
+      "resumeTime": " on ",
+      "visioconf": " has a visioconference",
+      "redo": "Redo the last step"
+    },
+    "error": {
+      "nextEvent": "Unable to get the next event",
+      "delete": "Error while deleting the next event",
+      "errorDataMissing": "I don't know what to do",
+      "missingTypeEvent": "I don't know the event type",
+      "create": "Error while creating an event",
+      "unauthorized": "Unauthorized user",
+      "config": "Check the configuration of the skill calendar"
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "title": "Très bien , je commence la création de l'évènement , pouvez vous me donner le titre ",
+      "location": "Quel est l'emplacement de l'évènement ",
+      "date": "A quelle date dois-je planifier l'évènement ",
+      "attendee": "Pour ajouter un contact, dite son nom, ou pour finir la création, dite créer l'évènement ",
+      "invite": " a été invité. Inviter un autre contact ou créer l'évènement",
+      "create": "L'évènement suivant a été créer, ",
+      "userNotFound": "Je ne trouve pas le contact ",
+      "userNotFoundRedo": ". Vous pouvez réessayer en disant le nom du contact ou créer l'évènement",
+      "nextEvent": "Votre prochain évènement ai ",
+      "nextEventStart": " , il commence le ",
+      "noNextEvent": "Il n'y a pas d'évènement prochainement",
+      "eventDelete": "Évènement supprimer",
+      "noEventToDelete": "Il n'y a pas d'évènement a supprimer",
+      "noDateDetected": "Aucune date détectée , recommencer",
+      "hours": "heure",
+      "at": " a ",
+      "resumeTime": " le ",
+      "visioconference": " en visioconférence ",
+      "redo": "Je n'ai pas compris, pouvez-vous recommencer"
+    },
+    "error": {
+      "nextEvent": "Impossible de récupérer le prochain évènement",
+      "delete": "Impossible de supprimer le prochain évènement",
+      "errorDataMissing": "Je ne sais pas quoi faire",
+      "missingTypeEvent": "Je ne sais pas le type d'évènement à créer, veuillez choisir entre, visioconférence, ou évènement",
+      "create": "Impossible de créer l'évènement",
+      "unauthorized": "Utilisateur non autorisé",
+      "config": "Veuillez vérifier la configuration de la compétence calendrier"
+    }
+  }
+}

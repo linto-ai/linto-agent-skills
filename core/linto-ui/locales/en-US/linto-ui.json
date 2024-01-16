@@ -1,0 +1,15 @@
+{
+  "linto-ui" :{
+    "label": {
+      "name" : "Name",
+      "group" : "Group",
+      "size" : "Size"
+    },
+    "placeholder" :{
+      "name": "Node name"
+    },
+    "error":{
+      "no-group" : "Group not configured"
+    }
+  }
+}

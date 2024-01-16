@@ -1,0 +1,70 @@
+##intent|news|fr
+- donne-moi les informations [nationales](type_national)
+- donne-moi les informations [sportives](type_sport)
+- donne-moi les news des [sports](type_sport)
+- quelles sont les informations [nationales](type_national)
+- quelle est l'actualité du jour
+- quelles sont les grands titres du jour
+- quelles sont les informations [sportives](type_sport)
+- quelles sont les informations [politiques](type_politique)
+- quelles sont les informations [musicales](type_music)
+- quelles sont les informations [internationaux](type_international)
+- quelles sont les informations [nationaux](type_national)
+- donne-moi l'actualité [politique](type_politique) du jour
+- quelle est l'actualité [nationale](type_national) du jour
+- actualité [musical](type_music)
+- quelles sont les actualités du [sport](type_sport)
+- quels sont les titres sur la [société](type_societe)
+- quels sont les titres du [monde](type_world)
+- quels sont les titres de [planète](type_world)
+- quelles sont les actualités [informatiques](type_pixel)
+- donne-moi les événements [informatiques](type_pixel)
+- quelles sont les activités [culturelles](type_cultural)
+- quelles sont les actualités [culturelles](type_cultural)
+- c'est quoi les événements [musicaux](type_musical) du moment
+- quels sont les événements [sportifs](type_sport)
+- quels sont les événements [internationaux](type_international)
+- quelle est l'actualité [sportive](type_sport) du moment
+- quelle est l'actualité [sportive](type_sport) du jour
+- quels sont les gros titres du jour
+- donne-moi les gros titres du moment
+- quelles sont les rubriques de l'actualité
+- quelle est l'actualité du jour
+- quelles sont les actualités du jour
+- quelle est l'actualité du moment
+- quelles sont les actualités du moment
+- Quelles sont les infos du [monde](type_international)
+- quels sont les grands titres des informations aujourd'hui
+
+##intent|news|en
+- what are the [sport](type_sport) news
+- what's the [sport](type_sport) news
+- what are the [music](type_music) news
+- what's the [music](type_music) news
+- what are the [political](type_politique) news
+- what's the [political](type_politique) news
+- give me the [international](type_international) news
+- what are the [international](type_international) news
+- what’s the the [international](type_international) news
+- give me the [political](type_politique) headlines updates
+- give me the [national](type_national) headlines updates
+- what are the us [national](type_national) updates
+- what's the us [national](type_national) updates
+- give me the [national](type_national) news
+- give me the [political](type_politique) news
+- give me the [politic](type_politique) news
+- give me the [music](type_music) news
+- give me the [sport](type_sport) news
+- list me the [sport](type_sport) news
+- list me the [national](type_national) news
+- list me the [music](type_music) news
+- list me the [international](type_international) news
+- list me the [political](type_politique) news
+- [music](type_music) news
+- [sport](type_international) news
+- [international](type_international) news
+- [national](type_national) news
+- what's the [politics](type_politique) Updates
+- what are the [national](type_national) Updates
+- what are the current News
+- give me the [national](type_national) headlines updates

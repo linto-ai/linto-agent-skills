@@ -1,0 +1,21 @@
+{
+  "linto-skill-pollution": {
+    "label": {
+      "name": "Name",
+      "api": "API",
+      "defaultCity": "City",
+      "command": "Command - ",
+      "custom": "Custom",
+      "default": "Default"
+    },
+    "placeholder": {
+      "name": "Node name",
+      "defaultCity": "Default city"
+    },
+    "shared": {
+      "list_api": {
+        "prevair": "prevair"
+      }
+    }
+  }
+}

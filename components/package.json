@@ -1,0 +1,28 @@
+{
+  "name": "@linto-ai/linto-components",
+  "description": "All linto components used for making a linto skill",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "yhoupert@linagora.com",
+  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linto-ai/linto-skills-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linto-ai/linto-skills-components/issues"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "fs": "0.0.1-security",
+    "mqtt": "^3.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  },
+  "homepage": "https://linto.ai/",
+  "keywords": [
+    "linto",
+    "node-red",
+    "components"
+  ]
+}

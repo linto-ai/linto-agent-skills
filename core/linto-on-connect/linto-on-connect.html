@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType("linto-on-connect", {
+        category: 'linto',
+        color: '#3cbbf2',
+        defaults: {
+            name: {
+                value: ""
+            }
+        },
+        inputs: 0,
+        outputs: 0,
+        paletteLabel: "On connect",
+        icon: "font-awesome/fa-plug",
+        label: function () {
+            return this.name || "linto-on-connect"
+        }
+    })
+</script>
+
+
+<script type="text/x-red" data-template-name="linto-on-connect">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="linto-on-connect.label.name" /></label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]linto-on-connect.placeholder.name" />
+    </div>
+  </script>

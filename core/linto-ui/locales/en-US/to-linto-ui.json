@@ -1,0 +1,10 @@
+{
+  "to-linto-ui" :{
+    "label": {
+      "name" : "Name"
+    },
+    "placeholder" :{
+      "name": "Node name"
+    }
+  }
+}

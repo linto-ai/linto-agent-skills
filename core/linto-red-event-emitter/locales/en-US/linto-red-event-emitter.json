@@ -1,0 +1,10 @@
+{
+  "linto-red-event-emitter": {
+    "label": {
+      "name": "Name"
+    },
+    "placeholder": {
+      "name": "Node name"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "linto-skill-calendar": {
+    "label": {
+      "name": "Name",
+      "host": "Host",
+      "user": "Email",
+      "password": "Password",
+      "command": "Command - ",
+      "custom": "Custom",
+      "default": "Default"
+    },
+    "placeholder": {
+      "name": "Node name",
+      "host": "https//",
+      "user": "user@qa.open-paas.org",
+      "password": "secret",
+      "command": "Command"
+    }
+  }
+}

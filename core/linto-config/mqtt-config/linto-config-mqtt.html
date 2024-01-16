@@ -1,0 +1,56 @@
+<script type="text/javascript">
+    RED.nodes.registerType('linto-config-mqtt', {
+        category: 'config',
+        defaults: {
+            host: {
+                value: '',
+                required: true
+            },
+            port: {
+                value: 1883,
+                required: true,
+                validate: RED.validators.number()
+            },
+            scope: {
+                value: '',
+                required: true
+            },
+            login: {
+                value: ''
+            },
+            password: {
+                value: ''
+            }
+        },
+        label: function () {
+            return this.host + ':' + this.port
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="linto-config-mqtt">
+    <div class="form-row">
+        <label for="node-config-input-host"><i class="fa fa-globe"></i> <span data-i18n="linto-config-mqtt.label.host"/></label>
+        <input  type="text" id="node-config-input-host" data-i18n="[placeholder]linto-config-mqtt.placeholder.host" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-config-input-port"><i class="fa fa-globe"></i> <span data-i18n="linto-config-mqtt.label.port"/></label>
+        <input  type="text" id="node-config-input-port" data-i18n="[placeholder]linto-config-mqtt.placeholder.port" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-config-input-scope"><i class="fa fa-id-badge "></i> <span data-i18n="linto-config-mqtt.label.scope"/></label>
+        <input  type="text" id="node-config-input-scope" data-i18n="[placeholder]linto-config-mqtt.placeholder.scope" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-config-input-login"><i class="fa fa-user"></i> <span data-i18n="linto-config-mqtt.label.login"/></label>
+        <input  type="text" id="node-config-input-login" data-i18n="[placeholder]linto-config-mqtt.placeholder.login" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-config-input-password"><i class="fa fa-key"></i> <span data-i18n="linto-config-mqtt.label.password"/></label>
+        <input  type="password" id="node-config-input-password" data-i18n="[placeholder]linto-config-mqtt.placeholder.password" />
+    </div>
+</script>

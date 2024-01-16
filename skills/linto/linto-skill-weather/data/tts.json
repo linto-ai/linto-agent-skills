@@ -1,0 +1,66 @@
+{
+  "en-US": {
+    "say": {
+      "temperatureToday": {
+        "phonetic": " temperature is ",
+        "text": " temperature is "
+      },
+      "temperatureNextDay": {
+        "phonetic": " tomorrow temperature will be between ",
+        "text": " tomorrow temperature will be between "
+      },
+      "weatherTodayIs": {
+        "phonetic": "The weather is ",
+        "text": "The weather is "
+      },
+      "weatherNextIs": {
+        "phonetic": "tomorrow weather will be",
+        "text": "tomorrow weather will be"
+      },
+      "error_city_weather": {
+        "phonetic": "Could not retrive the weather for this city : ",
+        "text": "Could not retrive the weather for this city : "
+      },
+      "error_api": {
+        "phonetic": "Could not retrive the weather from the web-site",
+        "text": "Could not retrive the weather from the web-site"
+      },
+      "error_no_city": {
+        "phonetic": "No city has been detected",
+        "text": "No city has been detected"
+      }
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "temperatureToday": {
+        "phonetic": " la température est de ",
+        "text": " la température est de "
+      },
+      "temperatureNextDay": {
+        "phonetic": " demain la température sera comprise entre ",
+        "text": " demain la température sera comprise entre "
+      },
+      "weatherTodayIs": {
+        "phonetic": "Le temps ai : ",
+        "text": "Le temps est : "
+      },
+      "weatherNextIs": {
+        "phonetic": "demain le temps sera : ",
+        "text": "demain le temps sera : "
+      },
+      "error_city_weather": {
+        "phonetic": "Je n'arrive pas à récupérer les informations de cette ville : ",
+        "text": "Je n'arrive pas à récupérer les informations de cette ville : "
+      },
+      "error_api": {
+        "phonetic": "Je n'ai pas réussi a récupérer les informations du site internet",
+        "text": "Je n'ai pas réussi a récupérer les informations"
+      },
+      "error_no_city": {
+        "phonetic": "Aucune ville détecter",
+        "text": "Aucune ville détectée"
+      }
+    }
+  }
+}

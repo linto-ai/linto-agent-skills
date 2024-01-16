@@ -1,0 +1,27 @@
+{
+  "linto-config-transcribe": {
+    "label": {
+      "api": "API",
+      "commandOffline" : "Command",
+      "largeVocabStreaming" : "Streaming",
+      "largeVocabStreamingInternal" : "Streaming internal",
+      "largeVocabOffline" : "Offline large"
+    },
+    "placeholder": {
+      "service" : "Service Name",
+      "commandOffline" : "http://command_offline_service",
+      "largeVocabStreaming" : "http://large_vocabulary_streaming_service",
+      "largeVocabOffline" : "http://large_vocabulary_offline_service/"
+    },
+    "shared": {
+      "list_api": {
+        "linstt": "Linstt",
+        "bing": "Bing"
+      },
+      "bool": {
+        "true": "true",
+        "false": "false"
+      }
+    }
+  }
+}

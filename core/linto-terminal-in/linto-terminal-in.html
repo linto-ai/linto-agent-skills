@@ -1,0 +1,34 @@
+<script type="text/javascript">
+    RED.nodes.registerType("linto-terminal-in", {
+        category: 'linto',
+        color: '#3cbbf2',
+        defaults: {
+            name: {
+                value: ""
+            },
+            sn: {
+                value: ""
+            }
+        },
+        inputs: 0,
+        outputs: 1,
+        icon: "skill.png",
+        paletteLabel: "Terminal in",
+        icon: "icon_linto_node_red_transp.png",
+        label: function () {
+            return this.name || "linto-terminal-in"
+        }
+    })
+</script>
+
+<script type="text/x-red" data-template-name="linto-terminal-in">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="linto-terminal-in.label.name" /></label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]linto-terminal-in.placeholder.name" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-sn"><i class="fa fa-user"></i> <span data-i18n="linto-terminal-in.label.serialNumber" /></label>
+        <input disabled type="text" id="node-input-sn" data-i18n="[placeholder]linto-terminal-in.placeholder.serialNumber" />
+    </div>
+</script>

@@ -1,0 +1,25 @@
+{
+  "name": "@linto-ai/linto-skill-room-control",
+  "version": "0.0.3",
+  "description": "Room demo skill for web linto",
+  "author": "yhoupert@linagora.com",
+  "license": "AGPL-3.0-or-later",
+  "node-red": {
+    "nodes": {
+      "linto-skill-room-control": "linto-skill-room-control.js"
+    }
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "@linto-ai/linto-components": "latest"
+  },
+  "homepage": "https://linto.ai/",
+  "directories": {
+    "linto": "linto"
+  },
+  "keywords": [
+    "linto",
+    "node-red",
+    "example"
+  ]
+}

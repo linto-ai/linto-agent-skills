@@ -1,0 +1,26 @@
+{
+  "en-US": {
+    "say": {
+      "unknown": {
+        "phonetic": "The requested skill topic is not find",
+        "text": "The requested skill-topic is not find"
+      },
+      "unknownTopic": {
+        "phonetic": "The requested topic is not define",
+        "text": "The requested topic is not define"
+      }
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "unknown": {
+        "phonetic": "Le topic demandé n'est pas trouvé",
+        "text": "Le topic demandé n'est pas trouvé"
+      },
+      "unknownTopic": {
+        "phonetic": "Le topic demandé n'existe pas",
+        "text": "Le topic demandé n'existe pas"
+      }
+    }
+  }
+}

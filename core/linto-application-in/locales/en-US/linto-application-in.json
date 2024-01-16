@@ -1,0 +1,12 @@
+{
+  "linto-application-in": {
+    "label": {
+      "name" : "Name",
+      "android" : "Android",
+      "web" : "Web"
+    },
+    "placeholder":{
+      "name" : "Node name"
+    }
+  }
+}

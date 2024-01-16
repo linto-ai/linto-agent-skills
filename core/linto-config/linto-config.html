@@ -1,0 +1,72 @@
+<script type="text/javascript">
+    RED.nodes.registerType("linto-config", {
+        category: 'settings',
+        color: '#84c387',
+        defaults: {
+            name: {
+                value: ""
+            },
+            configMqtt: {
+                type: "linto-config-mqtt",
+                value: ""
+            },
+            configEvaluate: {
+                type: "linto-config-evaluate",
+                value: ""
+            },
+            configChatbot: {
+                type: "linto-config-chatbot",
+                value: ""
+            },
+            configTranscribe: {
+                type: "linto-config-transcribe",
+                value: ""
+            },
+            language: {
+                value: ""
+            }
+        },
+        inputs: 0,
+        outputs: 0,
+        icon: "font-awesome/fa-cogs",
+        paletteLabel: "Linto config",
+        label: function () {
+            return this.name || "linto-config"
+        }
+    })
+</script>
+
+<script type="text/x-red" data-template-name="linto-config">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="linto-config.label.name"/></label>
+        <input disabled type="text" id="node-input-name" data-i18n="[placeholder]linto-config.placeholder.name" >
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-configMqtt"><i class="fa fa-globe"></i> <span data-i18n="linto-config.label.configMqtt"/></label>
+        <input disabled type="text" id="node-input-configMqtt" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-configTranscribe"><i class="fa fa-assistive-listening-systems"></i> <span data-i18n="linto-config.label.configTranscribe"/></label>
+        <input disabled type="text" id="node-input-configTranscribe" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-configEvaluate"><i class="fa fa-comments-o"></i> <span data-i18n="linto-config.label.configEvaluate"/></label>
+        <input disabled type="text" id="node-input-configEvaluate" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-configChatbot"><i class="fa fa-commenting-o"></i> <span data-i18n="linto-config.label.configChatbot"/></label>
+        <input disabled type="text" id="node-input-configChatbot" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-language"><i class="fa fa-language"></i> <span data-i18n="linto-config.label.language" /> </label>
+        <select disabled id="node-input-language" type="select" style="width:70%">
+            <option value="fr-FR" data-i18n="linto-config.shared.list_lang.fr" />
+            <option value="en-US" data-i18n="linto-config.shared.list_lang.en" />
+        </select>
+    </div>
+  </script>

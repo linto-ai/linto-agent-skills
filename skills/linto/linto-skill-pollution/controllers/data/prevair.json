@@ -1,0 +1,5 @@
+
+{
+  "api": "http://www2.prevair.org/ineris-web-services.php?url=atmo&date=",
+  "location_key" : "location"
+}

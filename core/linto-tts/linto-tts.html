@@ -1,0 +1,25 @@
+<script type="text/javascript">
+    RED.nodes.registerType("linto-tts", {
+        category: 'services',
+        color: '#b5aacb',
+        defaults: {
+            name: {
+                value: ""
+            }
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "font-awesome/fa-signal",
+        paletteLabel: "TTS",
+        label: function () {
+            return this.name || "linto-tts"
+        }
+    })
+</script>
+
+<script type="text/x-red" data-template-name="linto-tts">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="linto-tts.label.name" /></label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]linto-tts.placeholder.name" />
+    </div>
+</script>

@@ -1,0 +1,25 @@
+<script type="text/javascript">
+    RED.nodes.registerType("linto-out", {
+        category: 'linto',
+        color: '#3cbbf2',
+        defaults: {
+            name: {
+                value: ""
+            },
+        },
+        inputs: 0,
+        outputs: 0,
+        paletteLabel: "To linto",
+        icon: "icon_linto_node_red_transp.png",
+        label: function () {
+            return this.name || "linto-out"
+        }
+    })
+</script>
+
+<script type="text/x-red" data-template-name="linto-out">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="linto-out.label.name" /></label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]linto-out.placeholder.name" />
+    </div>
+</script>

@@ -1,0 +1,12 @@
+{
+  "linto-terminal-in": {
+    "label": {
+      "name": "Name",
+      "serialNumber": "Id"
+    },
+    "placeholder": {
+      "name": "Node name",
+      "serialNumber": "Linto serial number"
+    }
+  }
+}

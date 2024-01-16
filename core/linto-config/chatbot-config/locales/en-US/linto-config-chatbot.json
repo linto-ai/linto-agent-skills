@@ -1,0 +1,12 @@
+{
+  "linto-config-chatbot": {
+    "label": {
+      "host" : "Host",
+      "rest" : "Rest"
+    },
+    "placeholder":{
+      "host" : "http://",
+      "rest" : "/io/app/linto/web"
+    }
+  }
+}

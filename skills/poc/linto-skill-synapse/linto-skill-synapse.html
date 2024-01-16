@@ -1,0 +1,58 @@
+<script type="text/x-red" data-template-name="linto-skill-synapse">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="linto-skill-synapse.label.name" /></label>
+        <div style="display: inline-block; width:70%">
+            <input type="text" id="node-input-name" data-i18n="[placeholder]linto-skill-synapse.placeholder.name" />
+        </div>
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-host"><i class="fa fa-globe"></i> <span data-i18n="linto-skill-synapse.label.host" /></label>
+        <div style="display: inline-block; width:70%">
+            <input type="text" id="node-input-host" data-i18n="[placeholder]linto-skill-synapse.placeholder.host" />
+        </div>
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-botId"><i class="fa fa-cog"></i> <span data-i18n="linto-skill-synapse.label.botId" /></label>
+        <div style="display: inline-block; width:70%">
+            <input type="text" id="node-input-botId" data-i18n="[placeholder]linto-skill-synapse.placeholder.botId" />
+        </div>
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-botKey"><i class="fa fa-key"></i> <span data-i18n="linto-skill-synapse.label.botKey" /></label>
+        <div style="display: inline-block; width:70%">
+            <input type="text" id="node-input-botKey" data-i18n="[placeholder]linto-skill-synapse.placeholder.botKey" />
+        </div>
+    </div>
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('linto-skill-synapse', {
+        category: 'poc',
+        color: '#bda2f5',
+        defaults: {
+            name: {
+                value: ""
+            },            
+            host: {
+                value: ""
+            },
+            botId: {
+                value: ""
+            },            
+            botKey: {
+                value: ""
+            },
+        },
+        inputs: 0,
+        outputs: 0,
+        icon: "font-awesome/fa-commenting-o",
+        paletteLabel: "Chatbot Synapse",
+
+        label: function () {
+            return this.name || "linto-skill-synapse"
+        },
+    })
+</script>

@@ -1,0 +1,94 @@
+{
+  "en-US": {
+    "say": {
+      "threshold": {
+        "phonetic": " has a pollution rate : ",
+        "text": " has a pollution rate : "
+      },
+      "error_city_unfound": {
+        "phonetic": " has not been found.",
+        "text": " has not been found."
+      },
+      "error_no_city": {
+        "phonetic": "No city has been detected",
+        "text": "No city has been detected"
+      },
+      "error_api": {
+        "phonetic": "Could not retrieve the pollution data",
+        "text": "Could not retrieve the pollution data"
+      },
+      "air_quality": {
+        "very_good": {
+          "phonetic": "very good",
+          "text": "very good"
+        },
+        "good": {
+          "phonetic": "good",
+          "text": "good"
+        },
+        "average": {
+          "phonetic": "average",
+          "text": "average"
+        },
+        "poor": {
+          "phonetic": "poor",
+          "text": "poor"
+        },
+        "bad": {
+          "phonetic": "bad",
+          "text": "bad"
+        },
+        "very_bad": {
+          "phonetic": "very bad",
+          "text": "very bad"
+        }
+      }
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "threshold": {
+        "phonetic": " a un seuil de pollution : ",
+        "text": " a un seuil de pollution : "
+      },
+      "error_city_unfound": {
+        "phonetic": " n'a pas été trouvée.",
+        "text": " n'a pas été trouvée."
+      },
+      "error_no_city": {
+        "phonetic": "Aucune ville détecter",
+        "text": "Aucune ville détectée"
+      },
+      "error_api": {
+        "phonetic": "Impossible de récupérer les données de pollution",
+        "text": "Impossible de récupérer les données de pollution"
+      },
+      "air_quality": {
+        "very_good": {
+          "phonetic": "très bien",
+          "text": "très bien"
+        },
+        "good": {
+          "phonetic": "bon",
+          "text": "bon"
+        },
+        "average": {
+          "phonetic": "moyen",
+          "text": "moyen"
+        },
+        "poor": {
+          "phonetic": "médiocre",
+          "text": "médiocre"
+        },
+        "bad": {
+          "phonetic": "mauvais",
+          "text": "mauvais"
+        },
+        "very_bad": {
+          "phonetic": "très mauvais",
+          "text": "très mauvais"
+        }
+      }
+    }
+  }
+}

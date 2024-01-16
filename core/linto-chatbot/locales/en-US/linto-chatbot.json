@@ -1,0 +1,12 @@
+{
+  "linto-chatbot": {
+    "label": {
+      "name": "Name",
+      "rest": "Rest"
+    },
+    "placeholder": {
+      "name": "Node name",
+      "rest": "/rest/path/bot"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_comment" : "linto-skill-${FLOW_Z}-${type_action}",
+  "basename" : "linto-skill",
+  "corename" : "core",
+  "core" : {
+    "chatbot" : "chatbot",
+    "emitter" : "red-event-emitter",
+    "evaluate" : "evaluate",
+    "transcribe" : "transcribe",
+    "streaming" : "streaming",
+    "out" : "linto-out"
+  },
+  "skill" : {
+    "action" : "customAction"
+  },
+  "out" : "linto-out"
+}

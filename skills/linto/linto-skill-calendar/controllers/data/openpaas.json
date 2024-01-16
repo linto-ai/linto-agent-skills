@@ -1,0 +1,7 @@
+{
+  "token" : "/api/jwt/generate",
+  "user" : "/api/user",
+  "search_people" : "/api/people/search",
+  "next_event" : "/calendar/api/events/next",
+  "create_event" : "/dav/api/calendars/"
+}

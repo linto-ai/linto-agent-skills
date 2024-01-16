@@ -1,0 +1,12 @@
+{
+  "linto-transcribe-streaming" : {
+    "label" :{
+      "name" : "Name",
+      "limited" : "Limited",
+      "chunk" : "Chunk"
+    },
+    "placeholder" : {
+      "name": "Node name"
+    }
+  }
+}

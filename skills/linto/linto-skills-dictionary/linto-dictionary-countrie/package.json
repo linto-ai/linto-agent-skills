@@ -1,0 +1,37 @@
+{
+  "name": "@linto-ai/node-red-linto-dictionary-country",
+  "version": "0.1.0",
+  "description": "Linto dictionary skill for country",
+  "scripts": {
+    "test": "mocha test",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "pretest-fix": "eslint --ignore-path .gitignore . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linto-ai/linto-skills-dictionary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linto-ai/linto-skills-dictionary/issues"
+  },
+  "author": "yhoupert@linagora.com",
+  "license": "AGPL-3.0-or-later",
+  "node-red": {
+    "nodes": {
+      "dictionary-countrie": "linto-dictionary-countrie.js"
+    }
+  },
+  "dependencies": {
+    "@linto-ai/linto-components": "latest"
+  },
+  "homepage": "https://linto.ai/",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "linto",
+    "node-red",
+    "skills",
+    "dictionary"
+  ]
+}

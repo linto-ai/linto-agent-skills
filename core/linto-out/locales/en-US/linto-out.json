@@ -1,0 +1,10 @@
+{
+  "linto-out" :{
+    "label": {
+      "name" : "Name"
+    },
+    "placeholder" :{
+      "name": "Node name"
+    }
+  }
+}

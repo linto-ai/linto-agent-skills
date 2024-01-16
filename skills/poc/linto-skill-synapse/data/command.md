@@ -1,0 +1,168 @@
+##intent|anger|fr
+- Tu m'énerves
+- Tu me gonfles
+- Tu me gaves
+- Tu me saoules
+- Je suis énervé
+- Je suis vénère
+- J'en ai marre
+- J'en peux plus
+- Je veux arrêter
+- Arrête de parler
+- Je ne veux plus parler
+- Je veux parler à quelqu'un d'autre
+- T'es chiant
+- Tu m'as énervé
+- Arrête de m'écrire
+- Arrêter la conversation
+- Ça suffit !
+- Arrête !
+##intent|bye|fr
+- au revoir mon petit bot
+- Bonne soirée !
+- adieu
+- adieu, chameau !
+- ciao
+- ciao!
+- je te souhaite une bonne journée !
+- très bonne soirée à toi
+- Allez bye
+- goodbye my friend
+- bonne journée
+##intent|compliment|fr
+- t'es géniale
+- t'es génial
+- vous êtes géniale
+- t'es super
+- t'es géniaaal
+- t'es géniale
+- t'es trop fort
+- t'es trop fort !
+- t'es trop forts
+- t'es trop balèze
+- tu es géniale
+- tu es géniale
+- tu es trop forte
+- vous êtes trop fort
+- tu es extraordinaire
+- t'es extraordinaire
+- t'es super forte
+- tu es super forte
+- t'es formidable
+- tu es épatant
+- tu es merveilleux
+- beau gosse
+- bellegosse
+- t'es bogoss
+- tu es beau
+- t'es mignon
+- tu es mignonne
+- tu es top
+- bo goss
+##intent|dissatisfaction|fr
+- t'es nul
+- tu es nulle
+- tu es naze
+- t'es naze!
+- Ztes naze
+- t'es trop nul
+- vous êtes trop nulle
+- vous êtes naze
+- tu crains
+- t'es mauvaise
+- tu es mauvais
+- pfff
+- pff
+- t'es vraiment pas douée
+- t'es pas doué
+- t'es vraiment naze
+- vous êtes pas doués
+- tu es vraiment mauvaise
+- je suis déçu
+- je suis déçue
+- jsuis déçue
+- jsuis déçu !
+- jsuis décu !
+- jsuis décue
+- tu es incompétent
+- incompétent !
+- incompétente!
+- Incapable!
+- Tu es minable
+- Minable!
+##intent|insultant|fr
+- Va te faire mettre !
+- Grosse merde
+- Gros con
+- petit con
+- spèce d'immonde connard
+- fan culo
+- Fuck you!
+- fdp
+- salope
+- FDP
+- pd
+- nik ta mer
+- va niquer ta mère !
+- je te chie à la raie
+- pd
+- PD
+- tu es une saloperie !
+- coucouille
+- Espèce d'enfoiré
+- pédé
+- crétin
+- t'es une mocheté
+- tu es laid
+- sale moche
+##intent|merci|fr
+- Merci
+- thx
+- thank you
+- merciiii
+- Je te remercie cher bot.
+- cimer
+##intent|noproblem|fr
+- C'est pas grave
+- Ce n'est pas grave
+##intent|salutation|fr
+- Bien le bonjour!
+- hi dude
+- dude hi
+- yo ça farte ?
+- hey
+- kikou
+- bonjourrr
+- rebonjour
+- Bonjourno
+- BONJOUR I-BOT
+- Allô ?
+- Allo ?
+- Hello ! ! ! !
+- Hello	  bot
+##intent|satisfaction|fr
+- Super
+- Super !
+- c'est Super !
+- cest super
+- top
+- youpi
+- youpi !
+- youpiii
+- c'est supr !
+- topissime
+- génial
+- génial !!!
+- géniaaal
+- c'est génial
+- genial
+- balèze
+- cool
+- trop cool
+- coooool
+- cooll
+- c'est cool !
+- formidable
+- c'est formidable !
+##intent|form|fr
+- Comment assurer un chat

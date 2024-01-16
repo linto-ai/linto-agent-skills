@@ -1,0 +1,18 @@
+{
+  "en-US": {
+    "say": {
+      "error_entities_number":{
+        "phonetic": "The request is not complet",
+        "text" : "The request is not complet"
+      }
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "error_entities_number":{
+        "phonetic": "La demande n'ai pas complète",
+        "text" : "La demande n'est pas complète."
+      }
+    }
+  }
+}

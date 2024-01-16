@@ -1,0 +1,34 @@
+{
+  "en-US": {
+    "say": {
+      "streaming_already_started": {
+        "phonetic": "Streaming is already started",
+        "text": "Streaming is already started"
+      },
+      "streaming_not_started": {
+        "phonetic": "No streaming request has been done",
+        "text": "No streaming request has been done"
+      },
+      "unknown": {
+        "phonetic": "I don't known what to do",
+        "text": "I don't known what to do"
+      }
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "streaming_already_started": {
+        "phonetic": "La transcription live à déjà démarré",
+        "text": "La transcription live à déjà démarré"
+      },
+      "streaming_not_started" :  {
+        "phonetic": "Aucune demande de transcription live à été effectué",
+        "text": "Aucune demande de transcription live à été effectué"
+      },
+      "unknown": {
+        "phonetic": "Je ne sais pas quoi faire",
+        "text": "Je ne sais pas quoi faire"
+      }
+    }
+  }
+}

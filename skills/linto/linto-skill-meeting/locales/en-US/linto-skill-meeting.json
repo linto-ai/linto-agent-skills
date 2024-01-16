@@ -1,0 +1,13 @@
+{
+  "linto-skill-meeting" : {
+    "label" :{
+      "name" : "Name",
+      "ui" : "Interface",
+      "uiInterval" : "Refresh (ms)"
+    },
+    "placeholder" : {
+      "name": "Node name",
+      "uiInterval" : "1000"
+    }
+  }
+}

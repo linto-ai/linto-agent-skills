@@ -1,0 +1,11 @@
+{
+  "linto-dictionary-french-department": {
+    "label": {
+      "name" : "Name",
+      "data" : "Data"
+    },
+    "placeholder":{
+      "name" : "Context name"
+    }
+  }
+}

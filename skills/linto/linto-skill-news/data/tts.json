@@ -1,0 +1,58 @@
+{
+  "en-US": {
+    "say": {
+      "title": {
+        "phonetic": "Here the main title : ",
+        "text": "here the main title : "
+      },
+      "error_news_title": {
+        "phonetic": "Could not retrieve the news data",
+        "text": "Could not retrieve the news data"
+      },
+      "error_lang_not_supported": {
+        "phonetic": "This language is not supported for this web-site",
+        "text": "This language is not supported for this website"
+      },
+      "error_entities_number":{
+        "phonetic": "The request is not complet",
+        "text" : "The request is not complet"
+      },
+      "error_unknown_type": {
+        "phonetic": "Unknown news type",
+        "text": "unknown news type"
+      },
+      "error_api": {
+        "phonetic": "Could not retrieve the news data",
+        "text": "Could not retrieve the news data"
+      }
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "title": {
+        "phonetic": "Voici les grands titres : ",
+        "text": "Voici les grands titres : "
+      },
+      "error_news_title": {
+        "phonetic": "Impossible de récupérer les informations",
+        "text": "Impossible de récupérer les informations."
+      },
+      "error_lang_not_supported": {
+        "phonetic": "Cette langue n'est pas supporter pour ce site internet",
+        "text": "Cette langue n'est pas supporter pour ce site internet"
+      },
+      "error_entities_number":{
+        "phonetic": "La demande n'ai pas complète",
+        "text" : "La demande n'est pas complète."
+      },
+      "error_unknown_type": {
+        "phonetic": "Impossible de trouver le type de nouvelle",
+        "text": "Impossible de trouver le type de nouvelle"
+      },
+      "error_api": {
+        "phonetic": "Impossible de récupérer les informations",
+        "text": "Impossible de récupérer les informations"
+      }
+    }
+  }
+}

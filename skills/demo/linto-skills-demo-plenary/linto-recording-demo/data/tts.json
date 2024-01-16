@@ -1,0 +1,26 @@
+{
+  "en-US": {
+    "say": {
+      "recording_started": {
+        "phonetic": "Recording started",
+        "text": "Recording started "
+      },
+      "recording_stop": {
+        "phonetic": "Recording stoped",
+        "text": "Recording stoped"
+      }
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "recording_start": {
+        "phonetic": "Enregistrement en cours",
+        "text": "Enregistrement en cours"
+      },
+      "recording_stop": {
+        "phonetic": "Fin de l'enregistrement",
+        "text": "Fin de l'enregistrement"
+      }
+    }
+  }
+}

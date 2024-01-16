@@ -1,0 +1,19 @@
+{
+  "linto-skill-news": {
+    "label": {
+      "name": "Name",
+      "api": "API",
+      "command": "Command - ",
+      "custom": "Custom",
+      "default": "Default"
+    },
+    "placeholder": {
+      "name": "Node name"
+    },
+    "shared": {
+      "list_api": {
+        "lemonde": "Le monde"
+      }
+    }
+  }
+}

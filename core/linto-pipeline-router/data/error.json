@@ -1,0 +1,18 @@
+{
+  "missingStreamingSkill" : {
+    "message" : "Unvalid flow configuration. The streaming skill is not in the flow",
+    "code" : 500
+  },
+  "unsuportedTopic" : {
+    "message" : "Unsuported topic",
+    "code" : 500
+  },
+  "unsuportedSkill" : {
+    "message" : "The flow don't have the require skill",
+    "code" : 500
+  },
+  "unsuportedAction": {
+    "message" : "The flow don't have the require action",
+    "code" : 500
+  }
+}

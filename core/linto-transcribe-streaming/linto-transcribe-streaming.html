@@ -1,0 +1,47 @@
+<script type="text/javascript">
+    RED.nodes.registerType("linto-transcribe-streaming", {
+        category: 'services',
+        color: '#b5aacb',
+        defaults: {
+            name: {
+                value: ""
+            },
+            limited: {
+                value: false
+            },
+            chunk: {
+                value: 50
+            }
+        },
+        inputs: 0,
+        outputs: 0,
+        icon: "font-awesome/fa-microphone",
+        paletteLabel: "Streaming transcribe",
+        label: function () {
+            return this.name || "linto-transcribe-streaming"
+        }
+    })
+</script>
+
+<script type="text/x-red" data-template-name="linto-transcribe-streaming">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="linto-transcribe-streaming.label.name" /> </label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]linto-transcribe-streaming.placeholder.name" />
+    </div>
+
+    <div class="form-row">
+        <input type="checkbox" id="node-input-limited" style="display: inline-block; width: auto; vertical-align: top;" autocomplete="off">
+        <label for="node-input-limited" style="width: auto;">Use limited mode <span id="limited-helper" class="fa fa-question"></span></label>
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-signal"></i> <span data-i18n="linto-transcribe-streaming.label.chunk" /> </label>
+        <input type="number" step="5" min="0" id="node-input-chunk" placeholder="50" >
+    </div>
+
+    <style>
+        #limited-helper:hover:after{
+            content: "Limited mode will force to stop the streaming request after x chunk send";
+        }
+    </style>
+</script>

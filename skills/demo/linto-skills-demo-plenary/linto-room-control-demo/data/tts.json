@@ -1,0 +1,26 @@
+{
+  "en-US": {
+    "say": {
+      "projector_started": {
+        "phonetic": "Recording started",
+        "text": "Recording started "
+      },
+      "projector_stop": {
+        "phonetic": "projector stoped",
+        "text": "projector stoped"
+      }
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "recording_start": {
+        "phonetic": "Projecteur éteint",
+        "text": "Projecteur éteint"
+      },
+      "recording_stop": {
+        "phonetic": "Projecteur éteint",
+        "text": "Projecteur éteint"
+      }
+    }
+  }
+}

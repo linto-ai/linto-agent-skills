@@ -1,0 +1,25 @@
+<script type="text/javascript">
+    RED.nodes.registerType("to-linto-ui", {
+        category: 'interface',
+        color: '#b5aaff',
+        defaults: {
+            name: {
+                value: ""
+            },
+        },
+        inputs: 0,
+        outputs: 1,
+        icon: "arrow-in.png",
+        paletteLabel: "To interface",
+        label: function () {
+            return this.name || "to-linto-ui"
+        }
+    })
+</script>
+
+<script type="text/x-red" data-template-name="to-linto-ui">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="to-linto-ui.label.name" /></label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]to-linto-ui.placeholder.name" />
+    </div>
+</script>

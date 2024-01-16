@@ -1,0 +1,43 @@
+{
+  "api": "https://www.lemonde.fr/",
+  "rss": "/rss_full.xml",
+  "type_gender": {
+      "prefix" : "type",
+      "type_cultural": {
+          "entity_name": "type_cultural",
+          "value": "culture"
+      },
+      "type_international": {
+          "entity_name": "type_international",
+          "value": "international"
+      },
+      "type_music": {
+          "entity_name": "type_music",
+          "value": "music"
+      },
+      "type_national": {
+          "entity_name": "type_national",
+          "value": "national"
+      },
+      "type_pixel": {
+          "entity_name": "type_pixel",
+          "value": "pixels"
+      },
+      "type_politique": {
+          "entity_name": "type_politique",
+          "value": "politique"
+      },
+      "type_societe": {
+          "entity_name": "type_societe",
+          "value": "société"
+      },
+      "type_sport": {
+          "entity_name": "type_sport",
+          "value": "sport"
+      },
+      "type_world": {
+          "entity_name": "type_world",
+          "value": "planète"
+      }
+  }
+}

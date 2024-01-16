@@ -1,0 +1,21 @@
+{
+  "linto-config-evaluate": {
+    "label": {
+      "host": "Host",
+      "api": "API",
+      "applicationName": "App Name",
+      "namespace": "namespace"
+    },
+    "placeholder": {
+      "host": "http://",
+      "applicationName": "Application Name",
+      "namespace": "app"
+    },
+    "shared": {
+      "list_api": {
+        "tock": "Tock",
+        "rasa": "Rasa"
+      }
+    }
+  }
+}

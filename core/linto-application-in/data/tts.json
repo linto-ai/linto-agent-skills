@@ -1,0 +1,58 @@
+{
+  "en-US": {
+    "say": {
+      "auth_error": {
+        "phonetic": "An error occurred while attempting to connect to server",
+        "text": "An error occurred while attempting to connect to server"
+      },
+      "auth_disable": {
+        "phonetic": "This authentification method for this process has been disable",
+        "text": "This authentification method for this process has been disable"
+      },
+      "streaming_already_started": {
+        "phonetic": "Streaming is already started",
+        "text": "Streaming is already started"
+      },
+      "streaming_not_started": {
+        "phonetic": "No streaming request has been done",
+        "text": "No streaming request has been done"
+      },
+      "require_param_missing" : {
+        "phonetic": "Topic require param is missing",
+        "text": "Topic require param is missing"
+      },
+      "nlp_topic_type_unknown" : {
+        "phonetic": "NLP topic unknown",
+        "text": "NLP topic unknown"
+      }
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "auth_error": {
+        "phonetic": "Une erreur d'authentification est survenue",
+        "text": "Une erreur d'authentification est survenue"
+      },
+      "auth_disable": {
+        "phonetic": "Cette méthode d'authentification a été desactivé",
+        "text": "Cette méthode d'authentification a été desactivé"
+      },
+      "streaming_already_started": {
+        "phonetic": "La transcription live à déjà démarré",
+        "text": "La transcription live à déjà démarré"
+      },
+      "streaming_not_started" :  {
+        "phonetic": "Aucune demande de transcription live à été effectué",
+        "text": "Aucune demande de transcription live à été effectué"
+      },
+      "require_param_missing" : {
+        "phonetic": "Le paramètre requis est manquant",
+        "text": "Le paramètre  requis est manquant"
+      },
+      "nlp_topic_type_unknown" : {
+        "phonetic": "NLP topic inconnue",
+        "text": "NLP topic inconnue"
+      }
+    }
+  }
+}

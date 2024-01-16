@@ -1,0 +1,50 @@
+{
+  "name": "@linto-ai/linto-skills-toolbox",
+  "version": "0.0.3",
+  "license": "AGPL-3.0-or-later",
+  "engines": {
+    "node": ">=11.6.0",
+    "npm": ">=6.5.0"
+  },
+  "description": "Toolbox used by linto-skills and linto business-logic-server",
+  "main": "utility.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "DEBUG=* node utility.js ",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "pretest-fix": "eslint --ignore-path .gitignore . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linto-ai/linto-skills-toolbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linto-ai/linto-skills-toolbox/issues"
+  },
+  "keywords": [
+    "linto",
+    "skills",
+    "utility"
+  ],
+  "author": "Houpert Yoann <yhoupert@linagora.com>",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "file-system": "^2.2.2",
+    "fs-temp": "^1.1.2",
+    "readline": "^1.3.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "grunt": "^1.0.4",
+    "grunt-contrib-jshint": "^2.0.0",
+    "mocha": "^6.1.4",
+    "prettier": "^1.17.0"
+  },
+  "homepage": "https://linto.ai/",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}

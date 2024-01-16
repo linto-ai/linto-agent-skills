@@ -1,0 +1,43 @@
+<script type="text/javascript">
+    RED.nodes.registerType("linto-application-in", {
+        category: 'linto',
+        color: '#3cbbf2',
+        defaults: {
+            name: {
+                value: ""
+            },
+            auth_android: {
+                value: false
+            },
+            auth_web: {
+                value: false
+            }
+        },
+        inputs: 0,
+        outputs: 1,
+        paletteLabel: "Application in",
+        icon: "icon_linto_node_red_transp-infini-white.png",
+        label: function () {
+            return this.name || "linto-application-in"
+        }
+    })
+</script>
+
+<script type="text/x-red" data-template-name="linto-application-in">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="linto-application-in.label.name" /></label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]linto-application-in.placeholder.name" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-auth_android"><i class="fa fa-mobile"></i> <span data-i18n="linto-application-in.label.android" /></label>
+        <input disabled type="checkbox" id="node-input-auth_android" style="display: inline-block; width: auto; vertical-align: top;">
+        <label for="node-input-auth_android" style="width: 70%;">Enable android user</label>
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-auth_web"><i class="fa fa-globe"></i> <span data-i18n="linto-application-in.label.web" /></label>
+        <input disabled type="checkbox" id="node-input-auth_web" style="display: inline-block; width: auto; vertical-align: top;">
+        <label for="node-input-auth_web" style="width: 70%;">Enable web user</label>
+    </div>
+</script>

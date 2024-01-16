@@ -1,0 +1,10 @@
+{
+  "linto-pipeline-router" : {
+    "label" :{
+      "name" : "Name"
+    },
+    "placeholder" : {
+      "name": "Node name"
+    }
+  }
+}

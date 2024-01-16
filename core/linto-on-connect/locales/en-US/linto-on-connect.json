@@ -1,0 +1,10 @@
+{
+  "linto-on-connect": {
+    "label": {
+      "name": "Name"
+    },
+    "placeholder": {
+      "name": "Node name"
+    }
+  }
+}

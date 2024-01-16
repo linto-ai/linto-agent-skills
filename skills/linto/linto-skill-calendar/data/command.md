@@ -1,0 +1,12 @@
+##intent|calendar|fr
+- [donne](action_list) moi mon prochain rendez-vous
+- [donne](action_list) moi mon prochain événement
+- [liste](action_list) mon prochain événement
+- [efface](action_delete) mon prochain événement
+- [efface](action_delete) le prochain rendez-vous
+- [supprime](action_delete) mon prochain rendez-vous
+- [crée](action_create) l'[événement](evenement)
+- [crée](action_create) un [événement](evenement)
+- [crée](action_create) une [visioconférence](visioconference)
+- [ajoute](action_create) un [événement](evenement)
+- [ajoute](action_create) une [visioconférence](visioconference)

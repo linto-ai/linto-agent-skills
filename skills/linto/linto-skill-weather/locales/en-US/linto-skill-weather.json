@@ -1,0 +1,26 @@
+{
+  "linto-skill-weather": {
+    "label": {
+      "name": "Name",
+      "api": "API",
+      "degreeType": "Type",
+      "defaultCity": "City",
+      "command": "Command - ",
+      "custom": "Custom",
+      "default": "Default"
+    },
+    "placeholder": {
+      "name": "Node name",
+      "defaultCity": "Default city"
+    },
+    "shared": {
+      "list_api": {
+        "microsoft": "Microsoft"
+      },
+      "list_degreeType": {
+        "celsius": "Celsius",
+        "fahrenheit": "Fahrenheit"
+      }
+    }
+  }
+}

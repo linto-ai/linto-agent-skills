@@ -1,0 +1,23 @@
+<!-- Nothing to show -->
+<div ng-show="msg.isShow" class="ng-hide"></div>
+
+<div ng-show="msg.isShow">
+  <div id="{{msg.z}}">
+    <div ng-if="msg.title">
+        <h1>{{msg.title}}</h1>
+    </div>
+    <div ng-if="msg.title === undefined">
+        <h1>##msg.title##</h1>
+    </div>
+
+    <div ng-if="msg.html">
+      <p ng-bind-html="msg.html"></p>
+    </div>
+    <div ng-if="msg.image">
+      <img src="{{msg.image.link}}" alt="{{msg.image.text}}"> </img>
+    </div>
+    <div ng-if="msg.url">
+      <a href="{{msg.url.link}}">{{msg.url.text}}</a>
+    </div>
+  </div>
+</div>
